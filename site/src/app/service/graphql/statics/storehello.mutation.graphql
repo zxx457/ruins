@@ -1,0 +1,5 @@
+mutation StoreHello($input: String!) {
+  storeHello(input: $input) {
+    word
+  }
+}
